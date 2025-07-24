@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Peta Interaktif PJU</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+ <div id="header">
+    <h1>DATA PJU PLN UP3 PEKALONGAN</h1>
+  </div>
+  <div id="container">
+    <div id="info-panel"><h2>Detail PJU</h2><p>Klik marker di peta</p></div>
+    <div id="map">
+        <div id="search-container">
+            <input type="text" id="search-input" placeholder="Cari berdasarkan ID, Desa, atau Kecamatan...">
+            <button id="search-button">Cari</button>
+        </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
